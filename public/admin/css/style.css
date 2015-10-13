@@ -1,0 +1,63 @@
+*{margin:0px; padding:0px; font-family:tahoma; font-size:13px; line-height:20px;color:#333; outline:none}
+body{background:#FFF}
+a{cursor:pointer; text-decoration:none}
+a.logout{position:absolute; right:0px; top:2px;color:#FFF;padding:2px 10px;background:#FFF; margin-top:3px; margin-right:10px;color:#000; border-radius:2px;box-shadow:0px 0px 10px #CCC inset;transition:all 0.8s;-webkit-transition:all 0.8s;}
+a.logout:hover{box-shadow:0px 0px 0px #FFF}
+a.sitemaps{position:absolute; right:70px; top:0px;color:#FFF;padding:2px 10px;background:#FFF; margin-top:3px; margin-right:10px;color:#000; border-radius:2px;box-shadow:0px 0px 10px #CCC inset;transition:all 0.8s;-webkit-transition:all 0.8s;}
+a.sitemaps:hover{box-shadow:0px 0px 0px #FFF}
+
+#menu{background:#1b354c;border-bottom:4px solid #E1E1E1;min-width:1200px;height:36px}
+#menu ul{}
+#menu ul li{padding:8px 15px; float:left; display:block; position:relative}
+#menu > ul > li{border-right:1px solid #2F5F90;box-shadow:1px 0px 0px #000;}
+#menu ul li a{color:#FFF;text-decoration:none;text-shadow:0px 1px #555;white-space:nowrap;font-family: tahoma}
+#menu ul li ul{position:absolute; top:36px; left:0px; width:230px;background:#FFF; box-shadow:1px 2px 3px #CCC;display:none}
+#menu ul li ul li a{color:#000; text-shadow:0px 0px #FFF;display:block}
+#menu ul li ul li{margin:0px; padding:5px 10px}
+#menu ul li ul li:hover{background:#4285f4;display:block;width:210px; margin:0px; padding:5px 10px}
+#menu ul li ul li:hover a{color:#FFF; text-shadow:0px 1px #555}
+#menu ul li:hover ul{display:block}
+
+.list_page{padding:10px 10px;}
+.list_page ul{overflow:hidden}
+.list_page ul strong{padding:2px 7px;background:#27c;color:#FFF !important;border:1px solid #039;float:left; display:block;}
+.list_page ul a{float:left; display:block;margin:0px 2px;padding:2px 7px;background:#F6F6F6;color:#000;text-decoration:none;border:1px solid #E1E1E1;}
+.list_page ul a.current_page{padding:2px 7px;background:#27c;color:#FFF !important;border:1px solid #039;}
+
+
+#content{width:100%; padding:10px 0px;min-width:1200px}
+#content .tools{background:#EEE; overflow:hidden; padding:10px 0px}
+#content .tools li{float:left; display:block;margin:0px 10px}
+#content .tools li.first{float:right;margin-right:10px;margin-top:4px}
+#content .tools li.first a.add_new{background:#27c;padding:5px 15px; color:#FFF; border-radius:20px; text-shadow:0px 1px #555; border:1px solid #06c;}
+#content .tools li select{}
+#content .tools li input{width:250px;border:1px solid #999;padding:3px 15px;border-radius:15px}
+#content .tools li.first p{float:left}
+
+#content .data_content{width:100%;background:#FFF}
+#content .data_content table{border:1px solid #ccc; border-collapse:collapse;width:100%;text-align:left}
+#content .data_content table tr td{border:1px solid #ccc; border-collapse:collapse;padding:5px 5px;}
+#content .data_content table tr td a{text-decoration:underline; color:blue}
+#content .data_content table tr td:nth-child(1){background: #E1E1E1;text-align: center;}
+#content .data_content table tr th:nth-child(1){background: #E1E1E1;text-align: center;}
+#content .data_content table tr th{border:1px solid #ccc; border-collapse:collapse;background:#e6e6e6; padding:5px 5px}
+#content .data_content table tr .Delete_td{width:35px;}
+#content .data_content table tr .Edit_td{width:35px;}
+#content .data_content table tr .Published_td{width:100px;}
+#content .data_content table tr .ParentID_td{width:250px;}
+#content .data_content table tr .ID_td{width:30px;}
+#content .data_content table tr .Title_td{width:350px;}
+#content .data_content table tr:hover td{background:#f6f6f6}
+
+.bg{width:100%; overflow:hidden;background:#EEE;padding-bottom:20px}
+.add_data{width:80%; margin-left:9%;padding:1%;background:#FFF;margin-top:10px; border:1px solid #CCC}
+.add_data h2.title{font-size:17px; color:#27c; font-weight:bold; padding:0px 0px 10px 0px; border-bottom:1px solid #CCC; margin-bottom:10px;}
+.add_data p{margin-top:10px; margin-bottom:4px;}
+.add_data div input[type="text"]{width:98%; padding:3px 1%}
+.add_data div input[type="radio"]{margin-left:3px; margin-right:15px}
+.add_data div input[type="submit"]{margin-top:20px; padding:3px 15px; background:#05c; border:1px solid #05c; box-shadow:0px 0px 2px #FFF inset;color:#FFF; cursor:pointer}
+.add_data div select{width:100%; padding:5px 1%}
+.add_data div a#submit{margin-top:20px; padding:3px 15px; background:#05c; border:1px solid #05c; box-shadow:0px 0px 2px #FFF inset;color:#FFF; cursor:pointer}
+.add_data hr{margin:10px 0px;clear:both}
+.add_data li{width:520px; float:left; padding:5px 0px; display:block}
+.add_data textarea{width:100%;border:1px solid #ccc;height:150px}
